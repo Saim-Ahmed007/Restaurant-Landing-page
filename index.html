@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header-container">
+        <!-- nav start -->
+        <nav class="pt-2 md:flex justify-between items-center gap-x-10 mb-20 ">
+            <div class="md:flex items-center gap-x-10">
+                <div class="flex items-center gap-x-2">
+                    
+                    <img class="w-[37px] h-[37px]" src="./images/logo.png" alt="">
+                    <h3 class="text-[28px] font-normal text-white">Restaurant</h3>
+                    <span class="text-white text-3xl md:hidden block mt-2 ml-auto" >
+                        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                        
+                    </span>                      
+                    
+                </div>
+                <ul class="md:flex md:items-center gap-x-4 md:opacity-100 opacity-0">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Clients</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <button class="bg-[#FEBF00] w-[157px] h-[44px] text-[16px] font-bold md:opacity-100 opacity-0">BOOK A TABLE</button>
+            </div>
+        </nav>
+        <!-- nav-end -->
+
+        <!-- hero section start -->
+        <div class="sm:flex justify-between sm:items-center w-[80%] mx-auto relative">
+            <div class="flex flex-col gap-y-4 ">
+                <h1 class="text-5xl sm:text-6xl text-white font-bold leading-tight taste sm:absolute top-[70px] ">TASTE THE AUTHENTIC <br> SAUDI CUISINE</h1>
+                <p class="sm:text-[18px] font-normal text-white leading-8">Amoung the best saudi chefs in the world, serving you something beyond
+                flavour </p>
+                <button
+                 class="mb-6 bg-[#FEBF00] text-[16px] w-[150px] h-[56px] font-bold">
+                 EXPLORE MENU
+                </button>
+            </div>
+            <div>
+                <img class="mx-auto md:ml-12 md:w-[700px]" src="./images/hero.png" alt="">
+            </div>
+        </div>
+        <!-- hero section end --> 
+    </div>
+
+    <!-- exceptional section start -->
+    <div class="sm:flex items-center w-[80%] mx-auto gap-x-10 sm:mb-10 relative">
+        <div class="mb-10 sm:mb-0">
+            <img class="w-[617px]" src="./images/burger-drinks.png" alt="">
+        </div>
+        <div class="sm:w-[617px] sm:mt-[-50px]">
+            <div class="flex sm:flex gap-x-8 items-center">
+                <h4 class="bg-[#B52B1D] text-white px-4 py-2">About</h4>
+                <h4>Experience</h4>
+                <h4>Contact</h4>
+            </div>
+            <hr>
+            <br>
+        
+            <h2 class="text-3xl sm:text-[45px] font-bold leading-tight mb-4">EXCEPTIONAL CULINARY <br> EXPERIENCE AND DELICIOUS FOOD</h2>
+            <p class="text-[15px] mb-4 leading-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus velit nesciunt expedita modi odio qui, doloribus, maxime dolore porro dicta eos nihil veniam dignissimos distinctio! Numquam doloremque exercitationem dolore tempora.</p>
+            <div class="flex sm:flex items-center gap-x-8">
+                <button class="mb-6 sm:m-0 bg-[#FEBF00] w-[157px] h-[44px] text-[16px] font-bold">ABOUT MORE</button>
+                    <p class="flex mt-[-20px] sm:m-0 sm:flex items-center gap-x-2"> <span><img src="./images/red-call.png" alt=""></span> +88 3436 739 845</p>      
+            </div>
+        </div>
+
+        <div class="sm:absolute top-[270px] right-[-150px]">
+            <img class="hidden md:block w-[120px]" src="./images/capsicum.png" alt="">
+        </div>
+
+     </div>
+
+     <div class="ml-6 sm:w-[80%] sm:flex items-center  sm:mx-auto gap-x-12 mb-20">
+            <div class="flex items-center">
+                <img class="w-[90px]" src="./images/box1.png" alt="">
+                <div class="flex flex-col">
+                    <h3 class="font-bold text-[18px]">FAST DELIVERY</h3>
+                    <p class="text-[15px]">within 30 minutes</p>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <img class="w-[90px]" src="./images/reward.png" alt="">
+                <div class="flex flex-col">
+                    <h3 class="font-bold text-[18px]">ABSOLUTE DINING</h3>
+                    <p class="text-[15px]">Best buffet restaurant</p>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <img class="w-[90px]" src="./images/box2.png" alt="">
+                <div class="flex flex-col">
+                    <h3 class="font-bold text-[18px]">PICKUP DELIVERY</h3>
+                    <p class="text-[15px]">Grab your food order</p>
+                </div>
+                
+            </div>
+     </div>
+    <!-- exceptional section end -->
+
+    <!-- popular food items section start -->
+
+    <div class="bg-[#FBF7F2] relative">
+
+        <div class="w-[80%] mx-auto">
+            <div class="flex justify-between items-center mb-12">
+                <div class="flex flex-col pt-12">
+                    <div class="flex items-center gap-x-2">
+                        <div class="bg-[#BD1F17] w-[10px] h-[10px]"></div>
+                        <p class="text-[#BD1F17] font-semibold">Crispy, Every Bite Taste</p>
+                    </div>
+                    <h2 class="text-3xl sm:text-[40px] font-bold">POPULAR FOOD ITEMS</h2>
+                </div>
+
+                <div class="pt-12">
+                    <img class="w-[120px]" src="./images/Content.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w-[80%] mx-auto min-h-80">
+            <div class="pl-16 sm:pl-0 sm:flex justify-start items-center gap-x-10 relative">
+                <div class="absolute left-[-150px] top-[-60px]">
+                    <img class="w-[140px]" src="./images/Frame 1707478073.png" alt="">
+                </div>
+                <div class="bg-[white] text-center w-[250px] px-8 py-4">
+                    <img class="w-[180px] mx-auto" src="./images/burger.png" alt="">
+                    <hr class="m-4 w-[40px] mx-auto">
+                    <h4 class="font-bold text-[14px]">VEGETABLES BURGER</h4>
+                    <p class="text-[11px]">Barbecue italian cuisine pizza</p>
+                </div>
+                <div class="hidden sm:block bg-[white] text-center w-[250px] px-8 py-4">
+                    <img class="w-[120px] mx-auto" src="./images/pizza.png" alt="">
+                    <hr class="m-4 w-[40px] mx-auto">
+                    <h4 class="font-bold text-[14px]">SPACIAL PIZZA</h4>
+                    <p class="text-[11px]">Barbecue italian cuisine pizza</p>
+                </div>
+                <div class="hidden sm:block bg-[white] text-center w-[250px] px-8 py-4">
+                    <img class="w-[200px] mx-auto" src="./images/french-fries.png" alt="">
+                    <hr class="m-4 w-[40px] mx-auto">
+                    <h4 class="font-bold text-[14px]" >SPACIAL FRENCH FRIES</h4>
+                    <p class="text-[11px]">Barbecue Italian cuisine</p>
+                </div>
+                <div class="hidden sm:block bg-[white] text-center w-[250px] px-8 py-4">
+                    <img class="mx-auto" src="./images/fried-shrimp-prawn-cake-white-plate 1.png" alt="">
+                    <hr class="m-4 w-[40px] mx-auto">
+                    <h4 class="font-bold text-[14px]">CUISINE CHICKEN</h4>
+                    <p class="text-[11px]">Japanese Cuisine Chicken</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- popular food items section end -->
+
+    <!-- Book now section start -->
+     <div class="book-now relative mb-20">
+            <div class="w-[80%] mx-auto">
+               <div>
+                <div class="flex items-center gap-x-2 pt-12">
+                    <div class="bg-[#BD1F17] w-[10px] h-[10px]"></div>
+                    <p class="text-[#BD1F17] font-semibold">Book Now</p>
+                </div>
+
+                <h2 class="text-white text-3xl sm:text-[40px] font-bold mb-2">BOOK YOUR TABLE</h2>
+                <p class="text-white text-[14px] mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias aperiam mollitia <br>eaque facere similique magni nisi sint animi consequuntur optio!</p>
+
+                
+                    <input class="p-2 text-white" type="text" required placeholder="Your Name*">
+                    <input class="p-2 mt-2 md:ml-4 text-white" type="text" required  placeholder="Your Email"> 
+                
+                
+                <br><br>
+                
+                <input class="p-2 text-white" type="date" required placeholder="Reservation date">
+                <img class="hidden md:absolute left-[311px] top-[266px]" src="./images/calender.png" alt="">
+                <input  class="p-2 mt-2 md:ml-4 text-white" type="text" required  placeholder="Total People">
+                <img class="hidden md:absolute left-[550px] top-[266px]"  src="./images/up-down.png" alt="">
+                
+                <br><br>
+
+                <textarea class="p-2 w-[300px] md:w-[auto] text-white mb-4"  name="" id="" rows="8" cols="57"
+                placeholder="Message"></textarea>
+               </div>
+               <button
+                 class="bg-[#FEBF00] text-[16px] w-[150px] h-[56px] font-bold">
+                 BOOK NOW
+                </button>
+                
+               </div>
+            </div>
+     
+    <!-- Book now section end -->
+
+    <!-- customer section start -->
+    <div class="w-[80%] mx-auto mb-20">
+        <div class="flex justify-between items-center mb-10">
+            <div class="flex flex-col">
+                <div class="flex items-center gap-x-2">
+                    <div class="bg-[#BD1F17] w-[10px] h-[10px]"></div>
+                    <p class="text-[#BD1F17] font-semibold">Crispy, Every Bite Taste</p>
+                </div>
+                <h2 class="text-3xl sm:text-[40px] font-bold">WHAT SOME OF MY CUSTOMERS SAY</h2>
+            </div>
+
+            <div>
+                <img class="w-[120px]" src="./images/Content.png" alt="">
+            </div>
+        </div>
+
+        <div class="relative">
+            <img class="absolute left-[-150px] top-[-60px] w-[100px]" src="./images/221.png" alt="">
+            <img src="./images/Quote.png" alt="">
+        </div>
+
+    </div>
+     
+    <!-- customer section end -->
+    <!-- footer section start -->
+     <footer>
+        <div class="text-3xl text-center pt-8 sm:absolute top-[100px] left-[135px]">
+            <h3 class="sm:text-[45px] font-bold text-white text-center mb-10 ">WE READY TO HAVE YOU THE BEST DINING EXPERIENCES</h3>
+
+            <div class="md:flex justify-evenly items-center gap-x-20 mb-10">
+                <div class="text-white my-10">
+                    <img class="mx-auto md:ml-16 mb-2" src="./images/clock.png" alt="">
+                    <h4 class="mb-2 font-bold text-[20px]">OPENING HOURS</h4>
+                    <div class="text-center">
+                        <p class="text-[15px]">Monday-Sunday</p>
+                        <p class="text-[15px]">9.00 AM to 11.30 PM</p>
+                    </div>
+                </div>
+                <div class="text-white my-10 text-center">
+                    <img class="mx-auto md:ml-14 mb-2" src="./images/phone.png" alt="">
+                    <h4 class="mb-2 font-bold text-[20px] text-center">LET'S TALK</h4>
+                    <div class="text-center">
+                        <p class="text-[15px]">Phone: 1-800-222-4545</p>
+                        <p class="text-[15px]">Fax: 1-800-222-4545</p>
+                    </div>
+                </div>
+                <div class="text-white my-10 text-center">
+                    <img class="mx-auto md:ml-24 mb-2" src="./images/message.png" alt="">
+                    <h4 class="mb-2 font-bold text-[20px]">BOOK A TABLE</h4>
+                    <div>
+                        <p class="text-[15px]">Email: demo@website.com</p>
+                        <p class="text-[15px]">Support: support@website.com</p>
+                    </div>
+                </div>
+                <div class="text-white my-10 text-center">
+                    <img class="mx-auto md:ml-24 mb-2" src="./images/location.png" alt="">
+                    <h4 class="mb-2 font-bold text-[20px]">OUR ADDRESS</h4>
+                    <div>
+                        <p class="text-[15px]">123 Street New York City, United</p>
+                        <p class="text-[15px]">States of America</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sm:mb-20">
+                <div class="flex justify-center sm:flex mx-auto items-center gap-x-4 sm:absolute left-[530px]">
+                    <img class="w-[30px]" src="./images/facebook.png" alt="">
+                    <img class="w-[30px]"src="./images/twitter.png" alt="">
+                    <img class="w-[30px]"src="./images/inatagram.png" alt="">
+                    <img class="w-[30px]"src="./images/linkedin.png" alt="">
+                </div>
+            </div>
+            <p class="text-white text-center font-semibold text-[15px]">@ 2023
+                <span class="text-[#FEBF00]">Niomax</span>
+            All Rights Reserved
+            </p>
+            
+        </div>
+     </footer>
+    <!-- footer section end -->
+
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul')
+            let btn = document.querySelector('button')
+            e.name === 'menu' ? (e.name ='close',list.classList.add('opacity-100'),
+            btn.classList.add('opacity-100'))
+             : (e.name = 'menu', list.classList.remove('opacity-100'), btn.classList.remove('opacity-100')) 
+        }
+    </script>
+   
+    
+</body>
+</html>

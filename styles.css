@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+p{
+    font-family: Roboto, sans-serif;
+}
+.header-container{
+    background-image: linear-gradient(#BD1F17, #A51D13, #8E1B0f);
+    margin-bottom: 100px;
+    height: 110vh;
+}
+.header-container h1{
+    font-family: Bebas Neue, sans-serif;
+}
+h2{
+    font-family: Bebas Neue, sans-serif;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+}
+nav h3{
+    font-family: "Poppins",sans-serif;
+}
+nav li{
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-family: Raleway sans-serif;
+}
+.taste{
+    background-image: linear-gradient(#bd1f17a7, #bd1f17cb, #bd1f1700);
+    font-family: "Bebas Neue", serif;
+    
+}
+
+hr{
+    
+    border: 1px solid #BD1F17;
+}
+
+.book-now{
+    background-image: url('./images/golden-fork-with-plate.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;  
+}
+
+input{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.169);
+    width: 215px;
+}
+
+
+textarea{
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.169);
+    width: 450px;  
+}
+
+footer{
+    background-image: url(./images/restaurant-interior.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media (max-width:500px){
+    .header-container{
+        height: 170vh;
+    }
+    nav li{
+        padding: 5px;
+    }
+
+    .book-now{
+        height: 120vh;
+    }
+    
+    footer{
+        height: 150vh;
+    }
+}
+
+
